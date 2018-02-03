@@ -1,7 +1,7 @@
 # ConvLSTM
 Implementation of a Convolutional LSTM with Keras for video segmentation.
 
-Data should be provided in separate folder as a set of videos (mp4 format) and the corresponding segmentation mask with the suffix "_label" in the filename (before extension).
+Data should be provided in separate folder as a set of videos (mp4 format) and the corresponding segmentation mask with the suffix ```_label``` in the filename (before extension).
 
 To train the model run script 
 
@@ -15,6 +15,6 @@ For colour images change the shape.
 
 Training should take 1 hour per video sequence of 1000 frames in an NVIDIA TitanX	
 
-Example of image segmentation (top) with LSTM time (middle) and only convulutions (top)
+Example of ultrasound video sequence and corresponding image segmentation with Convolutional LSTM (middle) and only convolutions (top)
 
 ![](./images/Picture1.png)
