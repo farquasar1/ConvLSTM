@@ -9,7 +9,7 @@ K.set_image_dim_ordering('tf')
 import matplotlib.pyplot as plt
 import numpy as np
 from utils.networks import class_net_fcn_2p_lstm
-from utils.data_preprocessing import list_sequences, load_data, load_splits
+from utils.data_preprocesing import load_data, list_sequences, load_splits
 
 
 def net_summary(net):
